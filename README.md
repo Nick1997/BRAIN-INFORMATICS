@@ -12,6 +12,8 @@ through a resilient Backpropogation Neural Network as training sets. The trained
 is then used for classification of workload on an individual by
 just acquiring the EEG signals of that individual and pass them through the Network.
 
+![b_1](https://user-images.githubusercontent.com/7621795/36221298-ad0a7288-11e3-11e8-9959-d9f7d3573365.PNG)
+
 HOW TO TEST THIS MODEL: 
 - Download server.R, ui.R and TRAINING_DATASET_CSV.csv in one folder.
 - Open server.R (or ui.R) in R Studio, and Run the app.
@@ -19,3 +21,8 @@ HOW TO TEST THIS MODEL:
 - The Artificial Neural Network will be trained based on the training dataset provided. 
 - Next, enter the EEG values for which you want to predict the Workload Category. By default, values have been entered. You can enter your   own too.
 - Hit 'Run Analysis'
+
+
+![b_2](https://user-images.githubusercontent.com/7621795/36221400-f6cefaf6-11e3-11e8-883f-86eb4326ddd7.PNG)
+
+![b_3](https://user-images.githubusercontent.com/7621795/36221401-f720edde-11e3-11e8-8888-8502ccda04d3.PNG)
